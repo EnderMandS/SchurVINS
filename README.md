@@ -6,14 +6,14 @@ Fork from SchurVINS for docker support and practical implement.
 
 ```shell
 docker pull endermands/schurvins:latest
-docker run -it --net host --name ego_swarm endermands/schurvins:latest
+docker run -itd --net host --name schurvins endermands/schurvins:latest
 ```
 
 For mainland China
 
 ```shell
 docker pull ccr.ccs.tencentyun.com/endermands/schurvins:latest
-docker run -it --net host --name ccr.ccs.tencentyun.com/endermands/schurvins:latest
+docker run -itd --net host --name schurvins ccr.ccs.tencentyun.com/endermands/schurvins:latest
 ```
 
 The following are the README file from original repo.
